@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #f87171;
+	--white-color: #fff;
+}
+
+body {
+	background-color: antiquewhite;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+
+.container {
+	max-width: 600px;
+	margin: auto;
+	padding: 2rem;
+	border: 2px solid var(--primary-color);
+	margin-top: 8rem;
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 40px;
+	color: var(--primary-color);
+	margin-bottom: 1rem;
+}
+
+label {
+	width: 50%;
+	margin: auto;
+	font-size: 25px;
+	font-weight: 600;
+	color: var(--primary-color);
+	margin-bottom: 0.5rem;
+	padding: 0.5rem;
+}
+
+#input-date {
+	width: 60%;
+	margin: auto;
+	padding: 0.5rem;
+}
+
+#show-btn {
+	width: 20%;
+	margin: auto;
+	border: none;
+	outline: none;
+	padding: 0.8rem;
+	border-radius: 0.4rem;
+	background-color: var(--primary-color);
+	margin-top: 1.5rem;
+	cursor: pointer;
+}
+
+#output {
+	font-size: 25px;
+	font-size: 600;
+	color: var(--primary-color);
+	margin-top: 1.5rem;
+	padding: 0.8rem;
+}
+
+footer {
+	text-align: center;
+	margin-top: 20rem;
+}
+
+a,
+img,
+li {
+	display: inline;
+	margin: 0.4rem;
+	width: 30px;
+	height: 30px;
+}
